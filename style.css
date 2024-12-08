@@ -1,0 +1,441 @@
+body {
+    width: 1599px;
+    background-color: rgb(217, 217, 217);
+    margin: auto;
+}
+
+.mainhead {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: white;
+    border: 0.5px solid rgb(163, 159, 159);
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 152px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Rock {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: black;
+    height: 35px;
+    text-decoration: none;
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+#Rock {
+    text-decoration: none;
+}
+
+.Extra {
+    margin: 0px;
+    padding: 0px;
+    font-size: 2rem;
+    color: #05a081;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+#Extra {
+    text-decoration: none;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    border-radius: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search:hover {
+    border: 1px solid yellow;
+}
+
+.magnifing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    font-size: 1.4rem;
+    background-color: #05a081;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+
+}
+
+#cars {
+    height: 40px;
+    width: 130px;
+    font-weight: bolder;
+    border: none;
+    text-align: center;
+    background-color: rgb(240, 240, 240);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    border-right: 0.3px solid black;
+}
+
+.searchproduct {
+    height: 40px;
+    width: 500px;
+    border: none;
+    background-color: rgb(240, 240, 240);
+    font-size: 1.4rem;
+    font-weight: bolder;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 50px;
+    width: 100px;
+    border-radius: 3px;
+}
+
+.login:hover {
+    border: 1px solid white;
+}
+
+.userlogo {
+    color: black;
+    font-size: 1.7rem;
+    margin-right: 5px;
+    text-decoration: none;
+}
+
+.loginbut {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    margin-left: 3px;
+    font-weight: bolder;
+}
+
+.accsection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 43px;
+    width: 140px;
+    border-radius: 3px;
+    border-radius: 5px;
+}
+
+.celender {
+    color: black;
+    font-size: 1.9rem;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+.accsection1 {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.accsection:hover {
+    border: 2px solid white;
+}
+
+.location {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 85px;
+    border-radius: 5px;
+}
+
+.location:hover {
+    border: 2px solid white;
+}
+
+.locationlogo {
+    font-size: 1.4rem;
+    text-align: center;
+    margin-right: 5px;
+    margin-left: 3px;
+    text-decoration: none;
+    color: black;
+}
+
+.Delever {
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 75px;
+    border-radius: 5px;
+    margin-left: 40px;
+}
+
+.cart:hover {
+    border: 2px solid white;
+}
+
+.cartlogo {
+    color: black;
+    font-size: 1.7rem;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+.cartlist {
+    color: black;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 95px;
+    border-radius: 5px;
+}
+
+.order:hover {
+    border: 2px solid white;
+}
+
+.orderlogo {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.return {
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+
+.psimbole {
+    height: 70px;
+}
+
+.psign1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.parentlogo1 {
+    display: flex;
+}
+
+.drop11 {
+    font-weight: bolder;
+}
+
+.navdiv1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+
+.home1 {
+    border: none;
+    background-color: black;
+    border-radius: 100px;
+    height: 45px;
+    width: 100px;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home2 {
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    height: 45px;
+    width: 100px;
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home3 {
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    height: 45px;
+    width: 150px;
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.home4 {
+    border: none;
+    background-color: white;
+    border-radius: 100px;
+    height: 45px;
+    width: 150px;
+    color: black;
+    font-size: 1.3rem;
+    margin-left: 40px;
+}
+
+.imgbot {
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+    position: fixed;
+    display: flex;
+    justify-content: end;
+}
+
+.bot {
+    width: 1460px;
+    height: auto;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.contenerimgmother {
+    height: 100%;
+    width: 1599px;
+    margin-top: 50px;
+}
+
+.contanerimgmain {
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: auto;
+    justify-content: space-evenly;
+}
+
+.img1 {
+    height: 350px;
+    border-radius: 5px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.img2 {
+    height: 600px;
+}
+
+.img3 {
+    height: 350px;
+}
+
+.imgchild1 {
+    height: 350px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.imgchild2 {
+    height: 600px;
+}
+
+.proflelogo1 {
+    width: 30px;
+    height: 30px;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    border: 1px solid orange;
+    text-align: center;
+    color: red;
+}
+
+.profilename1 {
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+    margin-right: 220px;
+}
+
+.Downloadlogo1 {
+    background-color: #05a081;
+    width: 150px;
+    font-size: 1.2rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+
+.profilediv {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 91%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.imgchild1:hover .profilediv {
+    opacity: 1;
+}
