@@ -595,3 +595,29 @@ body {
     margin-left: 360px;
     margin-top: 30px;
 }
+
+.but1freeuse {
+    border:  none;
+    display: flex;
+}
+
+.but2agree {
+    border: none;
+    margin-left: 50px;
+}
+
+.tickicon1 {
+    border-radius: 50%;
+    width: 29px;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    border: 0.5px solid green;
+    color: #05a081;
+}
+
+.textfreeuse {
+    font-size: 1.3rem;
+    margin-left: 5px;
+    font-weight: bolder;
+}
