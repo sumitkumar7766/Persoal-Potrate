@@ -71,3 +71,25 @@ likedivimg1.addEventListener("click", () => {
     count ++;
     liklecount.innerHTML = count;
 })
+
+likedivimg1.addEventListener("dblclick", () => {
+    let count = 127;
+    heartlogo.style.color = "rgb(100, 100, 100)";
+    count --;
+    liklecount.innerHTML = count;
+})
+
+let clickimg1 = document.querySelector("#clickimg1"),
+contanerimgmain = document.querySelector(".contanerimgmain"),
+img1div = document.querySelector(".img1div"),
+back1but = document.querySelector(".back1but");
+
+clickimg1.addEventListener("click", () => {
+    contanerimgmain.hidden = true;
+    img1div.hidden = false;
+})
+
+back1but.addEventListener("click", () => {
+    contanerimgmain.hidden = false;
+    img1div.hidden = true;
+})
