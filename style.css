@@ -460,6 +460,11 @@ body {
     font-size: 1.2rem;
     color: rgb(99, 99, 99);
     font-weight: bolder;
+    cursor: pointer;
+}
+
+.claspdof1:hover {
+    font-size: 1.25rem;
 }
 
 .profname {
@@ -580,6 +585,10 @@ body {
     border-radius: 5px;
 }
 
+.backbutinnertext {
+    margin-top: 2px;
+}
+
 .back1but:hover {
     color: rgb(0, 77, 0);
 }
@@ -592,6 +601,7 @@ body {
 
 .footersecenddiv {
     display: flex;
+    width: 100%;
     margin-left: 360px;
     margin-top: 30px;
 }
@@ -599,11 +609,27 @@ body {
 .but1freeuse {
     border:  none;
     display: flex;
+    background-color: transparent;
 }
 
 .but2agree {
     border: none;
     margin-left: 50px;
+    background-color: transparent;
+}
+
+.but2agree2 {
+    background-color: rgb(132, 131, 131);
+    height: 30px;
+    margin-top: 5px;
+    font-size: 1.1rem;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tickicon1 {
@@ -618,6 +644,6 @@ body {
 
 .textfreeuse {
     font-size: 1.3rem;
-    margin-left: 5px;
+    margin-left: 10px;
     font-weight: bolder;
 }

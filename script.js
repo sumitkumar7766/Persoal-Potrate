@@ -63,6 +63,7 @@ collection2.addEventListener("click", () => {
 
 let likedivimg1 = document.querySelector(".likedivimg1"),
 heartlogo = document.querySelector(".heartlogo"),
+likeword = document.querySelector(".likeword"),
 liklecount = document.querySelector(".liklecount");
 
 likedivimg1.addEventListener("click", () => {
@@ -70,6 +71,7 @@ likedivimg1.addEventListener("click", () => {
     heartlogo.style.color = "red";
     count ++;
     liklecount.innerHTML = count;
+    likeword.innerHTML = 'Liked';
 })
 
 likedivimg1.addEventListener("dblclick", () => {
@@ -77,6 +79,7 @@ likedivimg1.addEventListener("dblclick", () => {
     heartlogo.style.color = "rgb(100, 100, 100)";
     count --;
     liklecount.innerHTML = count;
+    likeword.innerHTML = 'Like';
 })
 
 let clickimg1 = document.querySelector("#clickimg1"),
@@ -93,3 +96,19 @@ back1but.addEventListener("click", () => {
     contanerimgmain.hidden = false;
     img1div.hidden = true;
 })
+
+let claspdof1 = document.querySelector(".claspdof1");
+
+claspdof1.addEventListener("click", () => {
+    claspdof1.innerHTML = 'Following';
+    claspdof1.style.color = 'green';
+})
+
+claspdof1.addEventListener("dblclick", () => {
+    claspdof1.innerHTML = 'Follow';
+    claspdof1.style.color = 'rgb(99, 99, 99';
+})
+
+const freetouse = () => {
+    alert("You Can Use this containt to any where Freealy");
+}
