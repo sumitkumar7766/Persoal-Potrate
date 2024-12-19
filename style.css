@@ -454,6 +454,13 @@ body {
     justify-content: space-evenly;
 }
 
+.headerimg3 {
+    display: flex;
+    width: 1200px;
+    height: auto;
+    justify-content: space-evenly;
+}
+
 .nameprof1 {
     margin: 0px;
     padding: 0px;

@@ -176,3 +176,11 @@ likecount1.addEventListener("dblclick", () => {
     likecountno1.innerHTML = count;
     likeed1.innerHTML = 'Like';
 })
+
+let clickimg3 = document.querySelector("#clickimg3"),
+img3div = document.querySelector(".img3div");
+
+clickimg3.addEventListener("click", () => {
+    contanerimgmain.hidden = true;
+    img3div.hidden = false;
+})
