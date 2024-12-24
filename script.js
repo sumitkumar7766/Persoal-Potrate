@@ -184,3 +184,145 @@ clickimg3.addEventListener("click", () => {
     contanerimgmain.hidden = true;
     img3div.hidden = false;
 })
+
+let clickimg4 = document.querySelector("#clickimg4"),
+img4div = document.querySelector(".img4div");
+
+clickimg4.addEventListener("click", () => {
+    contanerimgmain.hidden = true;
+    img4div.hidden = false;
+})
+
+let clickimg5 = document.querySelector("#clickimg5"),
+img5div = document.querySelector(".img5div");
+
+clickimg5.addEventListener("click", () => {
+    contanerimgmain.hidden = true;
+    img5div.hidden = false;
+})
+
+let collect131 = document.querySelector("#collect131"),
+collect132 = document.querySelector("#collect132"),
+likecount3 = document.querySelector("#likecount3"),
+heartlogocolor3 = document.querySelector("#heartlogocolor3"),
+likeed3 = document.querySelector("#likeed3"),
+likecountno3 = document.querySelector("#likecountno3"),
+follow2 = document.querySelector("#follow2");
+
+collect131.addEventListener("click", () => {
+    collect131.hidden = true;
+    collect132.hidden = false;
+})
+
+likecount3.addEventListener("click", () => {
+    likeno = 311;
+    likecountno3.innerHTML = likeno + 1;
+    likeed3.innerHTML = 'Liked';
+    heartlogocolor3.style.color = 'red';
+})
+
+follow2.addEventListener("click", () => {
+    follow2.innerHTML = 'Following';
+    follow2.style.color = 'green';
+})
+
+collect132.addEventListener("dblclick", () => {
+    collect131.hidden = false;
+    collect132.hidden = true;
+})
+
+likecount3.addEventListener("dblclick", () => {
+    likeno = 312;
+    likecountno3.innerHTML = likeno - 1;
+    likeed3.innerHTML = 'Like';
+    heartlogocolor3.style.color = 'rgb(100, 100, 100)';
+})
+
+follow2.addEventListener("dblclick", () => {
+    follow2.innerHTML = 'Follow';
+    follow2.style.color = 'rgb(99, 99, 99)';
+})
+
+let collect141 = document.querySelector("#collect141"),
+collect142 = document.querySelector("#collect142"),
+likecount4 = document.querySelector("#likecount4"),
+heartlogocolor4 = document.querySelector("#heartlogocolor4"),
+likeed4 = document.querySelector("#likeed4"),
+likecountno4 = document.querySelector("#likecountno4"),
+follow3 = document.querySelector("#follow3");
+
+collect141.addEventListener("click", () => {
+    collect141.hidden = true;
+    collect142.hidden = false;
+})
+
+likecount4.addEventListener("click", () => {
+    likeno = 311;
+    likecountno4.innerHTML = likeno + 1;
+    likeed4.innerHTML = 'Liked';
+    heartlogocolor4.style.color = 'red';
+})
+
+follow3.addEventListener("click", () => {
+    follow3.innerHTML = 'Following';
+    follow3.style.color = 'green';
+})
+
+collect142.addEventListener("dblclick", () => {
+    collect141.hidden = false;
+    collect142.hidden = true;
+})
+
+likecount4.addEventListener("dblclick", () => {
+    likeno = 312;
+    likecountno4.innerHTML = likeno - 1;
+    likeed4.innerHTML = 'Like';
+    heartlogocolor4.style.color = 'rgb(100, 100, 100)';
+})
+
+follow3.addEventListener("dblclick", () => {
+    follow3.innerHTML = 'Follow';
+    follow3.style.color = 'rgb(99, 99, 99)';
+})
+
+let collect151 = document.querySelector("#collect151"),
+collect152 = document.querySelector("#collect152"),
+likecount5 = document.querySelector("#likecount5"),
+heartlogocolor5 = document.querySelector("#heartlogocolor5"),
+likeed5 = document.querySelector("#likeed5"),
+likecountno5 = document.querySelector("#likecountno5"),
+follow4 = document.querySelector("#follow4");
+
+collect151.addEventListener("click", () => {
+    collect151.hidden = true;
+    collect152.hidden = false;
+})
+
+likecount5.addEventListener("click", () => {
+    likeno = 500;
+    likecountno5.innerHTML = likeno + 1;
+    likeed5.innerHTML = 'Liked';
+    heartlogocolor5.style.color = 'red';
+})
+
+follow4.addEventListener("click", () => {
+    follow4.innerHTML = 'Following';
+    follow4.style.color = 'green';
+})
+
+collect152.addEventListener("dblclick", () => {
+    collect151.hidden = false;
+    collect152.hidden = true;
+})
+
+likecount5.addEventListener("dblclick", () => {
+    likeno = 501;
+    likecountno5.innerHTML = likeno - 1;
+    likeed5.innerHTML = 'Like';
+    heartlogocolor5.style.color = 'rgb(100, 100, 100)';
+})
+
+follow4.addEventListener("dblclick", () => {
+    follow4.innerHTML = 'Follow';
+    follow4.style.color = 'rgb(99, 99, 99)';
+})
