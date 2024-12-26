@@ -694,3 +694,15 @@ body {
     justify-content: center;
     flex-wrap: wrap;
 }
+
+.img6div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img7div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
