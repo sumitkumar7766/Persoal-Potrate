@@ -98,8 +98,7 @@ clickimg1.addEventListener("click", () => {
 })
 
 back1but.addEventListener("click", () => {
-    contanerimgmain.hidden = false;
-    img1div.hidden = true;
+    window.location.replace('index.html');
 })
 
 let claspdof1 = document.querySelector(".claspdof1");
@@ -119,8 +118,7 @@ const freetouse = () => {
 }
 
 const backtomain = () => {
-    contanerimgmain.hidden = false;
-    img1div.hidden = true;
+    window.location.replace('index.html');
 }
 
 let collect11 = document.querySelector("#collect11"),
@@ -487,7 +485,7 @@ collect181.addEventListener("click", () => {
 })
 
 likecount8.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 644;
     likecountno8.innerHTML = likeno + 1;
     likeed8.innerHTML = 'Liked';
     heartlogocolor8.style.color = 'red';
@@ -504,7 +502,7 @@ collect182.addEventListener("dblclick", () => {
 })
 
 likecount8.addEventListener("dblclick", () => {
-    likeno = 213;
+    likeno = 645;
     likecountno8.innerHTML = likeno - 1;
     likeed8.innerHTML = 'Like';
     heartlogocolor8.style.color = 'rgb(100, 100, 100)';
@@ -529,7 +527,7 @@ collect191.addEventListener("click", () => {
 })
 
 likecount9.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 546;
     likecountno9.innerHTML = likeno + 1;
     likeed9.innerHTML = 'Liked';
     heartlogocolor9.style.color = 'red';
@@ -546,7 +544,7 @@ collect192.addEventListener("dblclick", () => {
 })
 
 likecount9.addEventListener("dblclick", () => {
-    likeno = 213;
+    likeno = 547;
     likecountno9.innerHTML = likeno - 1;
     likeed9.innerHTML = 'Like';
     heartlogocolor9.style.color = 'rgb(100, 100, 100)';
@@ -564,38 +562,38 @@ likeed10 = document.querySelector("#likeed10"),
 likecountno10 = document.querySelector("#likecountno10"),
 follow10 = document.querySelector("#follow10");
 
-collect11111.addEventListener("click", () => {
-    collect11111.hidden = true;
-    collect11112.hidden = false;
+collect1101.addEventListener("click", () => {
+    collect1101.hidden = true;
+    collect1102.hidden = false;
 })
 
-likecount111.addEventListener("click", () => {
-    likeno = 212;
-    likecountno111.innerHTML = likeno + 1;
-    likeed111.innerHTML = 'Liked';
-    heartlogocolor111.style.color = 'red';
+likecount10.addEventListener("click", () => {
+    likeno = 141;
+    likecountno10.innerHTML = likeno + 1;
+    likeed10.innerHTML = 'Liked';
+    heartlogocolor10.style.color = 'red';
 })
 
-follow111.addEventListener("click", () => {
-    follow111.innerHTML = 'Following';
-    follow111.style.color = 'green';
+follow10.addEventListener("click", () => {
+    follow10.innerHTML = 'Following';
+    follow10.style.color = 'green';
 })
 
-collect11112.addEventListener("dblclick", () => {
-    collect11111.hidden = false;
-    collect11112.hidden = true;
+collect1102.addEventListener("dblclick", () => {
+    collect1101.hidden = false;
+    collect1102.hidden = true;
 })
 
-likecount111.addEventListener("dblclick", () => {
-    likeno = 213;
-    likecountno111.innerHTML = likeno - 1;
-    likeed111.innerHTML = 'Like';
-    heartlogocolor111.style.color = 'rgb(100, 100, 100)';
+likecount10.addEventListener("dblclick", () => {
+    likeno = 142;
+    likecountno10.innerHTML = likeno - 1;
+    likeed10.innerHTML = 'Like';
+    heartlogocolor10.style.color = 'rgb(100, 100, 100)';
 })
 
-follow111.addEventListener("dblclick", () => {
-    follow111.innerHTML = 'Follow';
-    follow111.style.color = 'rgb(99, 99, 99)';
+follow10.addEventListener("dblclick", () => {
+    follow10.innerHTML = 'Follow';
+    follow10.style.color = 'rgb(99, 99, 99)';
 })
 let collect1111 = document.querySelector("#collect1111"),
 collect1112 = document.querySelector("#collect1112"),
@@ -611,7 +609,7 @@ collect1111.addEventListener("click", () => {
 })
 
 likecount11.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 147;
     likecountno11.innerHTML = likeno + 1;
     likeed11.innerHTML = 'Liked';
     heartlogocolor11.style.color = 'red';
@@ -628,7 +626,7 @@ collect1112.addEventListener("dblclick", () => {
 })
 
 likecount11.addEventListener("dblclick", () => {
-    likeno = 213;
+    likeno = 148;
     likecountno11.innerHTML = likeno - 1;
     likeed11.innerHTML = 'Like';
     heartlogocolor11.style.color = 'rgb(100, 100, 100)';
@@ -652,7 +650,7 @@ collect1121.addEventListener("click", () => {
 })
 
 likecount12.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 985;
     likecountno12.innerHTML = likeno + 1;
     likeed12.innerHTML = 'Liked';
     heartlogocolor12.style.color = 'red';
@@ -669,7 +667,7 @@ collect1122.addEventListener("dblclick", () => {
 })
 
 likecount12.addEventListener("dblclick", () => {
-    likeno = 21313
+    likeno = 986;
     likecountno12.innerHTML = likeno - 1;
     likeed12.innerHTML = 'Like';
     heartlogocolor12.style.color = 'rgb(100, 100, 100)';
@@ -693,7 +691,7 @@ collect1131.addEventListener("click", () => {
 })
 
 likecount13.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 10;
     likecountno13.innerHTML = likeno + 1;
     likeed13.innerHTML = 'Liked';
     heartlogocolor13.style.color = 'red';
@@ -710,7 +708,7 @@ collect1132.addEventListener("dblclick", () => {
 })
 
 likecount13.addEventListener("dblclick", () => {
-    likeno = 213;
+    likeno = 11;
     likecountno13.innerHTML = likeno - 1;
     likeed13.innerHTML = 'Like';
     heartlogocolor13.style.color = 'rgb(100, 100, 100)';
@@ -734,7 +732,7 @@ collect1141.addEventListener("click", () => {
 })
 
 likecount14.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 21;
     likecountno14.innerHTML = likeno + 1;
     likeed14.innerHTML = 'Liked';
     heartlogocolor14.style.color = 'red';
@@ -751,7 +749,7 @@ collect1142.addEventListener("dblclick", () => {
 })
 
 likecount14.addEventListener("dblclick", () => {
-    likeno = 213;
+    likeno = 22;
     likecountno14.innerHTML = likeno - 1;
     likeed14.innerHTML = 'Like';
     heartlogocolor14.style.color = 'rgb(100, 100, 100)';
@@ -775,7 +773,7 @@ collect1151.addEventListener("click", () => {
 })
 
 likecount15.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 1010;
     likecountno15.innerHTML = likeno + 1;
     likeed15.innerHTML = 'Liked';
     heartlogocolor15.style.color = 'red';
@@ -792,7 +790,7 @@ collect1152.addEventListener("dblclick", () => {
 })
 
 likecount15.addEventListener("dblclick", () => {
-    likeno = 213;
+    likeno = 1011;
     likecountno15.innerHTML = likeno - 1;
     likeed15.innerHTML = 'Like';
     heartlogocolor15.style.color = 'rgb(100, 100, 100)';
@@ -816,7 +814,7 @@ collect1161.addEventListener("click", () => {
 })
 
 likecount16.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 2121;
     likecountno16.innerHTML = likeno + 1;
     likeed16.innerHTML = 'Liked';
     heartlogocolor16.style.color = 'red';
@@ -833,7 +831,7 @@ collect1162.addEventListener("dblclick", () => {
 })
 
 likecount16.addEventListener("dblclick", () => {
-    likeno = 213;
+    likeno = 2122;
     likecountno16.innerHTML = likeno - 1;
     likeed16.innerHTML = 'Like';
     heartlogocolor16.style.color = 'rgb(100, 100, 100)';
@@ -857,7 +855,7 @@ collect1171.addEventListener("click", () => {
 })
 
 likecount17.addEventListener("click", () => {
-    likeno = 212;
+    likeno = 8522;
     likecountno17.innerHTML = likeno + 1;
     likeed17.innerHTML = 'Liked';
     heartlogocolor17.style.color = 'red';
@@ -874,7 +872,7 @@ collect1172.addEventListener("dblclick", () => {
 })
 
 likecount17.addEventListener("dblclick", () => {
-    likeno = 213;
+    likeno = 8523;
     likecountno17.innerHTML = likeno - 1;
     likeed17.innerHTML = 'Like';
     heartlogocolor17.style.color = 'rgb(100, 100, 100)';

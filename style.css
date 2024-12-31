@@ -600,7 +600,7 @@ body {
 }
 
 .backbutinnertext {
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
 .back1but:hover {
@@ -702,6 +702,72 @@ body {
 }
 
 .img7div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img8div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img9div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img10div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img11div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img12div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img13div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img14div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img15div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img16div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img17div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.img18div {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
